@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    text-shadow: 2px solid gray;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+article {
+    font-size: 1.3em;
+}
+
+.break {
+    display: block;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.color-bg {
+    background-color: rgb(212, 29, 75);
+    color: white;
+}
+
+#corse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.coflex {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.course-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+}
+
+.course-content article {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    flex-direction: column;
+    padding: 20px;
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+    height: 80px;
+    width: 200px;
+    padding: 10px 10px;
+    margin: 20px;
+}
+
+.course-content2 {
+    width: 400px;
+    height: 300px;
+}
+
+.course2 img {
+    position: absolute;
+    left: 150px;
+    top: 800px;
+}
+
+.course-content2 {
+    display: block;
+    position: relative;
+    border: white;
+    border-radius: 5%;
+    background-color: white;
+    padding: 20px;
+    top: 150px;
+    left: 600px;
+    height: 450px;
+    width: 600px;
+}
+
+.features {
+    background-image: url("./assets/pexels-photo-452738.jpeg");
+    color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.features-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-flex-div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    width: 60%;
+    position: relative;
+    padding: 10px;
+}
+
+
+.border {
+    width: 150px;
+    height: 150px;
+    border: 2px red;
+    background: gray;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+
+
+}
+.border h2{
+    color: tomato;
+}
+
+.price-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.price-main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.price-flex-main h2 {
+    font-style: oblique;
+    font-size: 5em;
+}
+
+.price-flex div {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+
+}
+
+.price-box {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    background: silver;
+    margin: 30px;
+    width: 150px;
+    border-radius: 22px;
+}
+
+.purchase-button {
+    border-radius: 25px;
+    border: none;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+
+.price-flex-main>p {
+    font-size: 1.5em;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.page-flex-div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+}
+
+.page-flex-div article {
+    font-size: 1.5em;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.row-flex div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
+#pages {
+    height: 400px;
+}
+
+#about {
+    background: black;
+    color: white;
+}
+
+.about-main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 30px 30px;
+    height: 300px;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.about-flex div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 30%;
+    flex-direction: column;
+}
+.about-flex div button{
+    
+      height:30px;
+      width:60px;
+}
+
+
+.facts-flex-main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.facts-flex {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+
+.facts-flex div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+.flex-box1 {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.flex-box1 article {
+    font-size: 1.2em;
+}
+
+.flex-box {
+    display: block;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.flex-box article {
+    font-size: 1.2em;
+}
